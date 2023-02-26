@@ -151,7 +151,7 @@
       /* influencers */
       
       .background--home:before {
-        background-image: url("/img/gradient.jpg");
+        background-image: url("../img/gradient.jpg");
         background-size: cover;
         mix-blend-mode: multiply;
         background-position: -30px 484px;
@@ -163,7 +163,7 @@
         display: inline-block;
       }
       .background--home2:before {
-        background-image: url("/img/gradient.jpg");
+        background-image: url("../img/gradient.jpg");
         background-size: cover;
         mix-blend-mode: multiply;
         background-position: -30px 484px;
