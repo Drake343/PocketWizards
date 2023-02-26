@@ -1,0 +1,283 @@
+body,
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Larsseit-Light, sans-serif;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+section {
+  min-height: 300px;
+  border-top: 1px solid #f1f1f1;
+}
+
+#work {
+  margin-top: 100px;
+  min-height: 200px;
+}
+
+.bg-light1 {
+  background-color: #fff;
+}
+
+.pad-0 {
+  padding: 0px;
+}
+
+.pad-10 {
+  padding: 10px;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.pad-30 {
+  padding: 30px;
+}
+
+.pad-40 {
+  padding: 40px;
+}
+
+.pad-50 {
+  padding: 50px;
+}
+
+.pad-60 {
+  padding: 60px;
+}
+
+.pad-70 {
+  padding: 70px;
+}
+
+.pad-80 {
+  padding: 80px;
+}
+
+.custom-align {
+  text-align: center;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../img/arrow-prev.png");
+  left: 0;
+  position: absolute;
+  height: 80px;
+  width: 40px;
+  opacity: 0.6;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/arrow-next.png");
+  right: 0;
+  position: absolute;
+  height: 80px;
+  width: 40px;
+  opacity: 1;
+}
+
+.cta {
+  background-color: #eb3a3c;
+  border-color: #eb3a3c;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.cta:hover,
+.cta:active,
+.cta:focus {
+  color: #fff;
+  background-color: #f23032;
+  border-color: #f23032;
+}
+
+/****************************************
+*		HEADER START
+****************************************/
+
+.navbar {
+  background: #fff;
+}
+
+.navbar-brand .logo {
+  height: 35px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in all;
+  -webkit-transition: 0.3s ease-in all;
+  -moz-transition: 0.3s ease-in all;
+  color: #000;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  background: #000;
+  color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #ccc;
+}
+
+.navbar-collapse ul {
+  padding-top: 20px;
+}
+
+.navbar-collapse ul li.nav-item a {
+  padding-left: 12px;
+}
+
+/****************************************
+*		HEADER END
+****************************************/
+
+/****************************************
+*		INTRO START
+****************************************/
+
+#intro {
+  /*height: 400px;*/
+  /*background-image: url('../img/intro-banner.jpg');*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center center;*/
+}
+
+#intro h1 {
+  text-transform: uppercase;
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+  font-family: Larsseit-Bold;
+  font-weight: normal;
+  letter-spacing: 0.003em;
+  line-height: 1.125;
+  font-size: 50px;
+}
+
+#intro p {
+  font-size: 20px;
+}
+
+/****************************************
+*		INTRO END
+****************************************/
+
+/****************************************
+*		VALUES START
+****************************************/
+
+#values div {
+  margin-bottom: 1.5em;
+}
+
+.values-header {
+  margin-bottom: 1.5em;
+}
+
+.values-title {
+  color: rgba(44, 83, 104, 1);
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.925rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.values-para {
+  font-size: 0.9375rem;
+  line-height: 1.625rem;
+}
+
+.values_icon {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.values_icon img {
+  max-width: 150px;
+  margin-bottom: 25px;
+  max-height: 150px;
+}
+
+.award-category {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.award-entry {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.imageBanner {
+  position: relative;
+}
+
+.imageBanner img {
+  width: 100%;
+}
+
+.award-box {
+  position: absolute;
+  z-index: 33;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.award-show {
+  font-family: Larsseit-Bold, sans-serif;
+  font-size: 1em;
+}
+
+.award-entry {
+  /* letter-spacing: -1px; */
+}
+
+.text-breaker {
+  display: block;
+}
+
+
+
+/****************************************
+*		CONTACT START
+****************************************/
+
+.contact-content {
+        padding: 30px 20px;
+      }
+      
+      .contact-content .lead a {
+        color: red;
+      }
+      
+      .map-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+      #map {
+        height: 100%;
+        width: 100%;
+      }
+      .news-content {
+        padding: 0px 30px 50px 20px;
+      }
+      /****************************************
+      *		CONTACT END
+      ****************************************/
