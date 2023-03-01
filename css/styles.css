@@ -180,6 +180,37 @@ section {
 *		INTRO END
 ****************************************/
 
+
+/****************************************
+*		CHANNEL START
+****************************************/
+
+.channel {
+  padding: 80px 30px;
+}
+
+.channel .channel-img {
+  width: 70%;
+}
+
+/****************************************
+*		CHANNEL END
+****************************************/
+.main_plus_footer_social ul {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  display: inline-block;
+}
+.main_plus_footer_social ul li {
+  float: left;
+  list-style: none;
+  margin-right: 16px;
+}
+.main_plus_footer_social ul li a img {
+  width: 32px;
+  height: 32px;
+}
 /****************************************
 *		VALUES START
 ****************************************/
@@ -258,6 +289,10 @@ section {
 .text-breaker {
   display: block;
 }
+
+
+
+
 
 
 
