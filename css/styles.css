@@ -8,6 +8,7 @@ body {
   font-family: Larsseit-Light, sans-serif;
 }
 
+
 header {
   padding: 154px 0 100px;
 }
@@ -20,6 +21,12 @@ section {
 #work {
   margin-top: 100px;
   min-height: 200px;
+}
+
+.site-logo{
+  font-style: italic;
+  font-weight: 900;
+
 }
 
 .bg-light1 {

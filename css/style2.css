@@ -35,13 +35,14 @@
       }
       
       .cont_us {
-        font-family: Larsseit-Bold, sans-serif;
+        /* font-family: Larsseit-Bold, sans-serif; */
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family:  Neue, Segoe UI,Roboto,Ubuntu,sans-serif;
         font-size: 50px;
-        font-weight: normal;
-        letter-spacing: 0.026em;
+        font-weight: 500;
         line-height: 0.9;
         max-width: 700px;
-        color: rgb(255, 117, 119);
+        color: #344E41;
         top: 10px;
         margin: 0px 0px -10px;
         transition: opacity 250ms ease 0s;
@@ -132,16 +133,19 @@
      
       
       .navbar.navbar-light .navbar-nav .nav-item .active {
-        background: rgb(255, 117, 119);
+        /* background: rgb(255, 117, 119); */
+        background: #588157;
         color: #fff;
         font-weight: 500;
       }
       .navbar.navbar-light .navbar-nav .nav-item .active:hover {
-        background: rgb(255, 117, 119);
+        /* background: rgb(255, 117, 119); */
+        background: #588157;
         color: #fff;
       }
       .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
-        background: rgb(255, 117, 119);
+        /* background: rgb(255, 117, 119); */
+        background: #588157;
         color: #fff;
       }
       
@@ -151,7 +155,7 @@
       /* influencers */
       
       .background--home:before {
-        background-image: url("../img/gradient.jpg");
+        /* background-image: url(../img/gradient.jpg); */
         background-size: cover;
         mix-blend-mode: multiply;
         background-position: -30px 484px;
@@ -163,7 +167,7 @@
         display: inline-block;
       }
       .background--home2:before {
-        background-image: url("../img/gradient.jpg");
+        /* background-image: url(../img/gradient.jpg); */
         background-size: cover;
         mix-blend-mode: multiply;
         background-position: -30px 484px;
@@ -192,7 +196,7 @@
         letter-spacing: 0.015em;
         margin-top: 26px;
       }
-      .schedule .table-schedule .row-schedule {
+      .schedule .table-schedule  {
         height: 80px;
         height: 80px;
         height: 5rem;
@@ -211,7 +215,7 @@
         line-height: 2rem;
       }
       
-      .schedule .table-schedule .row-schedule .right {
+      .schedule .table-schedule  .right {
         margin-left: auto;
         font-size: 16px;
         font-size: 16px;
@@ -220,17 +224,17 @@
         line-height: 2rem;
       }
       
-      .schedule .table-schedule .row-schedule .arr {
+      .schedule .table-schedule .arr {
         font-size: 30px;
         font-size: 30px;
         font-size: 3rem;
       }
       
-      .schedule .table-schedule .row-schedule:first-child {
+      .schedule .table-schedule  {
         border-top: 1px solid #f1f1f1;
       }
       
-      .schedule .table-schedule .row-schedule.big {
+      .schedule .table-schedule {
         height: 120px;
         height: 120px;
         height: 12rem;
@@ -245,8 +249,10 @@
         -ms-flex-pack: center;
         justify-content: center;
       }
-      
-      .schedule .table-schedule .row-schedule.big .name {
+      .name{
+        padding: 10px 10px 10px 10px;
+      }
+      .schedule .table-schedule  .name {
         font-size: 40px;
         font-size: 40px;
         font-size: 4rem;
@@ -255,7 +261,7 @@
         line-height: 4rem;
       }
       
-      .schedule .table-schedule .row-schedule.big .right {
+      .schedule .table-schedule  .right {
         margin-left: 0;
         padding-top: 10px;
         padding-top: 10px;
@@ -274,16 +280,16 @@
       }
       
       @media screen and (min-width: 992px) {
-        .schedule .table-schedule .row-schedule {
+        .schedule .table-schedule  {
           font-size: 1.2rem;
           line-height: 2rem;
         }
       
-        .schedule .table-schedule .row-schedule .arr {
+        .schedule .table-schedule  .arr {
           font-size: 4rem;
         }
       
-        .schedule .table-schedule .row-schedule.big {
+        .schedule .table-schedule  {
           -webkit-box-align: baseline;
           -ms-flex-align: baseline;
           align-items: baseline;
@@ -297,12 +303,12 @@
           justify-content: normal;
         }
       
-        .schedule .table-schedule .row-schedule.big .name {
+        .schedule .table-schedule  .name {
           font-size: 6rem;
           line-height: 9rem;
         }
       
-        .schedule .table-schedule .row-schedule.big .right {
+        .schedule .table-schedule  .right {
           font-size: 3rem;
           margin-left: auto;
         }
@@ -313,7 +319,7 @@
       }
       
       @media screen and (min-width: 1280px) {
-        .schedule .table-schedule .row-schedule.big .name {
+        .schedule .table-schedule  .name {
           font-size: 9rem;
           line-height: 9rem;
         }
