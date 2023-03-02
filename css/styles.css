@@ -33,21 +33,23 @@ section {
   padding-bottom: 35px;
   justify-content: center;
 }
-.container {
+.container_footer {
   justify-content: center;
   position: relative;
   width: 960px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 0;
   text-align: center;
 }
-.container .column, .container .columns {
+.container_footer .column, .container .columns {
   
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-left: 5%;
+  padding-right: ;
 }
 @media only screen and (min-width: 320px) and (max-width: 479px){
 .container .columns, .container .column {
