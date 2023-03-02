@@ -25,18 +25,19 @@ section {
 
 #footer {
   position: relative;
-  margin: 10% auto;
+  /* margin: 10% auto; */
+  margin-top: 10%;
   width: 100%;
   background: #588157;
-  padding-top: 80px;
-  padding-bottom: 55px;
+  padding-top: 50px;
+  padding-bottom: 35px;
   justify-content: center;
 }
 .container {
   justify-content: center;
   position: relative;
   width: 960px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0;
   text-align: center;
 }
@@ -59,6 +60,7 @@ section {
 .sixteen columns{
   text-align: center;
   justify-content: center;
+
 }
 
 .pf {
@@ -73,7 +75,7 @@ section {
 }
 .an{
   font-size: x-large;
-  font-weight: 500;
+  font-weight: 900;
 
 }
 #footer .back-top {
