@@ -724,16 +724,22 @@ section {
   /* If the screen size is 480px or less */
   @media (max-width: 480px) {
     .content_testimonial-1 .picto {
-      padding-top: 100px;
+      padding-top: 50px;
     }
     .content_testimonial-2 .picto {
-      padding-top: 100px;
+      padding-top: 50px;
     }
     .content_testimonial-3 .picto {
-      padding-top: 100px;
+      padding-top: 50px;
     }
     .content_testimonial-4 .picto {
       padding-top: 100px;
+    }
+    .content_testimonial-5 .picto {
+      padding-top: 150px;
+    }
+    #right-zone{
+      height: 340px;
     }
     .item > label {
       font-size: 1.3rem;
