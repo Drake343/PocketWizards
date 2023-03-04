@@ -194,7 +194,9 @@ section {
 .channel .channel-img {
   width: 70%;
 }
-
+.channel-img{
+  width: 70%;
+}
 /****************************************
 *		CHANNEL END
 ****************************************/
