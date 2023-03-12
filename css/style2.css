@@ -11,7 +11,7 @@
   font-weight: 700;
   letter-spacing: -1.81px;
   color: #1e1e1e;
-  font-size: 84px;
+  font-size: 60px;
   line-height: 88px;
 }
 .brands-sub-center {
@@ -180,18 +180,18 @@
       
       .navbar.navbar-light .navbar-nav .nav-item .active {
         /* background: rgb(255, 117, 119); */
-        background: #588157;
+        background: #1a1b1a;
         color: #fff;
         font-weight: 500;
       }
       .navbar.navbar-light .navbar-nav .nav-item .active:hover {
         /* background: rgb(255, 117, 119); */
-        background: #588157;
+        background: #1a1b1a;
         color: #fff;
       }
       .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
         /* background: rgb(255, 117, 119); */
-        background: #588157;
+        background: #1a1b1a;
         color: #fff;
       }
       
